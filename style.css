@@ -7,19 +7,78 @@
 body {
     background-color: rgb(209, 202, 193);
 }
-.titulop{
+/*.containerbody{
+    width: 150%;
+    height: 20px;
+    margin: 2px 2px 2px 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;*/
+
+}
+.containerheader {
+    width: 100%;
+    height: 20px;
+    margin: 2px 2px 2px 2px;
+    display: flex;
+    /*flex-direction: column-reverse;*/
+}
+.img11{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.img1 {
+
+    width: 150%;
+    height: 200px;
+    align-items: center;
+
+}
+section{
+    width: 100%;
+        height: 300px;
+        padding: 1px 15px 1px 15px;
+        border: 15px 15px 15px 15px;
+        margin: 1px 1px 1px 1px;
+}
+
+/*.titulop{
     width: 100%;
     height: 100%;
     font-size: 60px;
 color: rgb(10, 15, 1);
 position: absolute;top:30px ;
-}
-.img1 {
+}*/
+.containermain{
+   /* width: 100%;*/
+    /*height: 100px;*/
+   /* margin: 2px 2px 2px 2px;*/
+   /* display: flex;*/
+    /*justify-content: center;*/
+   /* flex-direction: row-reverse;*/
     
-    width: 100%;
-    height: 200px;
+}
+
+.titulologo {
+    width:100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    /*position: static;*/
+    top: 1px;
     
 }
+.logo{
+width: 70px;
+height: 70px;
+/*justify-content: left;*/
+padding: 1px 1px 1px 1px;
+}
+/*.box{
+    align-self:first baseline;
+}*/
     
 
 /*.img11 {
@@ -58,21 +117,21 @@ header {
     box-sizing: border-box;
 }*/
 .box{
-    position: absolute;
-    top:260px;
+    /*position: absolute;*/
+    /*align-self:center;*/
+    top:360px;
    /* line-height: 100%;*/
-   vertical-align: middle;
-    line-height:65px;
-    
-}
+   /*vertical-align: middle;*/
+    line-height:85px;
+    }
 /*nav{
     border:3px solid black;
 }*/
 .ancor{
-    display: block;
+    /*display: block;*/
     background-color: rgb(222, 224, 51);
     /*position:relative; border-bottom-width:520px;*/
-    width: 100px;
+    width: 250px;
     height: 50px;
     padding: 1px 1px 1px 1px;
     margin: 1px 4px 4px 1px;
@@ -82,30 +141,41 @@ header {
     text-align: center;
     
 }
-.logo{
+/*.logo{
     width: 12%;
     height: 20%;
     display: block;
     position: absolute;
         top: 150px;
         left: 900px;
-}
-.titulologo{
+}*/
+/*.titulologo{
     background-color: black;
     color: white;
     text-align: center;
     position: static;
     top: 1px;0px
+}*/
+/*.containerseccion{
+    width: 80%;
+    height: 100px;
+    margin: 2px 2px 2px 2px;
+    display: flex;
+    flex-direction: column;*/
 }
-
 article{
-    position: relative;
-        top: 50px;
-        left: 120px;
-        display: block;
-        line-height: 30px;
+    width: 150vh;        
+    height: 300px;
+    padding: 15px 1px 15px 1px;
+    border: 15px 15px 15px 15px;
+    margin: 30px 30px 30px 30px;
+    /*display: block;*/
+            /*line-height: 30px;
+                width: 100%;
+                top: 50px;
+                   left: 120px;*/
         }
-  .div1 {
+  /*.div1 {
         position: relative;
         top: 50px;
         left: 120px;
@@ -117,12 +187,13 @@ article{
      p{
      line-height: 15px
      position: absolute ;top:9px;
-     }
-footer{
+     }*/
+/*footer{
     padding: 5px;
     width: 250;
-    position: relative;
-    margin: 200px;
+    /*position: relative;*/
+    /*display: flex;
+    margin: 200px;*/
 }
 /*table {
     background-color: aliceblue;
@@ -140,11 +211,33 @@ tr{
     text-align: center;
 }
 table,th,td {
-    border: 2px solid;
+    border: 1px solid;
     border-color: rgb(37, 53, 33);
     text-align: center;
 }
 .lista2 {
-    /* list-style-image: url(../assets/icon.png); */
+    
     list-style-type:lower-latin;
+}
+.containerfoot {
+   width: 150vh;
+   height: 30%;
+   padding: 15px 15px 15px 15px;
+   border: 15px solid rgb(255, 255, 255);
+   margin: 30px 30px 30px 30px;
+   box-sizing:border-box ;
+    display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   /*background-color:brown
+    display:flex;
+    justify-content: center;
+    align-items:center;*/
+}
+.div1{
+    width: 100%;
+    height: 300px;
+    padding: 15px 15px 15px 15px;
+    border: 15px 15px 15px 15px;
+    margin: 30px 30px 30px 30px;
 }
